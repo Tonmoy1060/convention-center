@@ -35,6 +35,14 @@
 .footer{
     height: 280px;
 }
+.bg-sky{
+    background-color: #E4F5FF;
+}
+.row-custom{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+}
 /* banner text responsive for mobile */
 @media only screen and (max-width:576px) {
     .p-10{
