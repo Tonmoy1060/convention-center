@@ -26,11 +26,14 @@
 .card-hover:hover{
     background-color: #0D6EED;
     color: white;
-    box-shadow: #0d6eedb7 5px 5px 15px 0px;
+    box-shadow: #0d6eedb7 0px 25px 35px 0px;
     border-radius: 35px;
 }
 .card-hover:hover .custom-a-card{
     background-color: white;
+}
+.footer{
+    height: 280px;
 }
 /* banner text responsive for mobile */
 @media only screen and (max-width:576px) {
