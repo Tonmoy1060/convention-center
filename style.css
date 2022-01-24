@@ -1,8 +1,5 @@
-.img-height{
-    height: 584px;
-}
 .text-warning-custom{
-    color: rgb(3, 24, 71);
+    color: rgba(31, 62, 126, 0.884);
 }
 .p-10{
     margin-top: 200px;
@@ -19,7 +16,23 @@
     color: #fff;
     text-align: center;
 }
-
+.custom-a-card{
+    color:  #0D6EED;
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color: #ffa9e04d;
+}
+.card-hover:hover{
+    background-color: #0D6EED;
+    color: white;
+    box-shadow: #0d6eedb7 5px 5px 15px 0px;
+    border-radius: 35px;
+}
+.card-hover:hover .custom-a-card{
+    background-color: white;
+}
+/* banner text responsive for mobile */
 @media only screen and (max-width:576px) {
     .p-10{
         margin-top: 20px;
@@ -28,6 +41,7 @@
     }
     
 }
+/* banner text responsive for tab */
 @media only screen and (min-width:577px) and (max-width:968px) {
     .p-10{
         margin-top: 30px;
